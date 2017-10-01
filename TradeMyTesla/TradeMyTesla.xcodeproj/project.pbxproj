@@ -12,6 +12,7 @@
 		34431DC11F8143BB00781B61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34431DBF1F8143BB00781B61 /* Main.storyboard */; };
 		34431DC31F8143BB00781B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34431DC21F8143BB00781B61 /* Assets.xcassets */; };
 		34431DC61F8143BB00781B61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34431DC41F8143BB00781B61 /* LaunchScreen.storyboard */; };
+		34431DCE1F814D8600781B61 /* Cars.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 34431DCD1F814D3A00781B61 /* Cars.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +141,7 @@
 			files = (
 				34431DBE1F8143BB00781B61 /* ViewController.swift in Sources */,
 				34431DBC1F8143BB00781B61 /* AppDelegate.swift in Sources */,
+				34431DCE1F814D8600781B61 /* Cars.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
