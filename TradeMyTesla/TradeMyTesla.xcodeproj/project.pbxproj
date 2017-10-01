@@ -22,6 +22,7 @@
 		34431DC21F8143BB00781B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34431DC51F8143BB00781B61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		34431DC71F8143BB00781B61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34431DCD1F814D3A00781B61 /* Cars.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Cars.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		34431DBA1F8143BB00781B61 /* TradeMyTesla */ = {
 			isa = PBXGroup;
 			children = (
+				34431DCD1F814D3A00781B61 /* Cars.mlmodel */,
 				34431DBB1F8143BB00781B61 /* AppDelegate.swift */,
 				34431DBD1F8143BB00781B61 /* ViewController.swift */,
 				34431DBF1F8143BB00781B61 /* Main.storyboard */,
@@ -275,6 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
 				INFOPLIST_FILE = TradeMyTesla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cristina.TradeMyTesla;
@@ -289,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2E3WU6RRL3;
 				INFOPLIST_FILE = TradeMyTesla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cristina.TradeMyTesla;
