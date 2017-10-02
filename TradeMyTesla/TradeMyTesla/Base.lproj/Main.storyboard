@@ -47,6 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="78" y="9"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s4Y-z4-WXC">
@@ -73,7 +74,7 @@
                                             <segment title="Model X"/>
                                         </segments>
                                         <connections>
-                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="touchUpInside" id="xl4-H0-OTe"/>
+                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="valueChanged" id="XbC-ao-0Md"/>
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium Upgrades" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obP-u1-kr7">
@@ -89,7 +90,7 @@
                                             <segment title="Installed"/>
                                         </segments>
                                         <connections>
-                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="touchUpInside" id="QoS-M5-yiC"/>
+                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="valueChanged" id="iP5-Hx-cyB"/>
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MILEAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1qr-3P-Dm5">
@@ -100,6 +101,9 @@
                                     </label>
                                     <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="10000" minValue="0.0" maxValue="20000" translatesAutoresizingMaskIntoConstraints="NO" id="pee-DG-nkz">
                                         <rect key="frame" x="-2" y="142.5" width="339" height="31"/>
+                                        <connections>
+                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="valueChanged" id="r0F-tn-JaB"/>
+                                        </connections>
                                     </slider>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONDITION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ueH-fn-Z4M">
                                         <rect key="frame" x="0.0" y="177.5" width="335" height="20.5"/>
@@ -116,7 +120,7 @@
                                             <segment title="Great"/>
                                         </segments>
                                         <connections>
-                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="touchUpInside" id="Cns-Za-adk"/>
+                                            <action selector="calculateValue:" destination="ePy-fD-iXz" eventType="valueChanged" id="Eud-bf-dYT"/>
                                         </connections>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TRADE YOUR TESLA FOR…" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uK3-Wb-Fn0">
